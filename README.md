@@ -20,3 +20,5 @@ PAROL6 ROS2 MOVEIT
   sudo apt install --reinstall ros-humble-geometric-shapes
 
   LC_NUMERIC=en_US.UTF-8 ros2 launch parol6_moveit demo.launch.py
+
+
