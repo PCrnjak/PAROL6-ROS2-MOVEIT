@@ -49,7 +49,7 @@ sudo apt install ros-humble-moveit
 
 https://www.youtube.com/watch?v=M2yiVbJmzKY&list=PLeEzO_sX5H6TNMBiworxO8RpQlcYfl54y&index=10
 https://robotics.stackexchange.com/questions/103300/error-loading-custom-robotic-manipulator-model-in-moveit2-on-ros2-humbleerror-l
-
+https://www.youtube.com/watch?v=nZqTdzGAfYs
 
 package.xml for ros2:
 
