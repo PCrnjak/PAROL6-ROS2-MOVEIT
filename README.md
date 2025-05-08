@@ -91,3 +91,7 @@ install(DIRECTORY urdf launch meshes
 
 ament_package()
 
+## TODO: 
+
+- [ ] Connect with real PAROL6 robot
+- [ ] Move PAROL6  
