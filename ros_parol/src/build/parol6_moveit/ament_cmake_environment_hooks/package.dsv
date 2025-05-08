@@ -1,0 +1,4 @@
+source;share/parol6_moveit/local_setup.bash
+source;share/parol6_moveit/local_setup.dsv
+source;share/parol6_moveit/local_setup.sh
+source;share/parol6_moveit/local_setup.zsh

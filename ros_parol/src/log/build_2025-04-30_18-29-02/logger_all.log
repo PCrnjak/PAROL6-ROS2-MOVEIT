@@ -1,0 +1,198 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7edcaee2e920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7edcaee2e470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7edcaee2e470>>, mixin_verb=('build',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sourcelinux/ros_parol/src'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(parol6) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'parol6' with type 'ros.ament_cmake' and name 'parol6'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(parol6_moveit) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'parol6_moveit' with type 'ros.ament_cmake' and name 'parol6_moveit'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sourcelinux/ros_parol/src/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sourcelinux/ros_parol/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sourcelinux/ros2_ws2/install
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 343 installed packages in /opt/ros/humble
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.287s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'parol6' is in: /home/sourcelinux/ros2_ws2/install/parol6, /home/sourcelinux/ros_parol/src/install/parol6
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding parol6
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'parol6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sourcelinux/ros_parol/src/build/parol6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sourcelinux/ros_parol/src/install/parol6', 'merge_install': False, 'path': '/home/sourcelinux/ros_parol/src/parol6', 'symlink_install': False, 'test_result_base': None}
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'parol6_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'parol6_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sourcelinux/ros_parol/src/build/parol6_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sourcelinux/ros_parol/src/install/parol6_moveit', 'merge_install': False, 'path': '/home/sourcelinux/ros_parol/src/parol6_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sourcelinux/ros_parol/src/parol6' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sourcelinux/ros_parol/src/parol6'
+[0.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourcelinux/ros_parol/src/build/parol6': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --build /home/sourcelinux/ros_parol/src/build/parol6 -- -j12 -l12
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourcelinux/ros_parol/src/build/parol6' returned '0': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --build /home/sourcelinux/ros_parol/src/build/parol6 -- -j12 -l12
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourcelinux/ros_parol/src/build/parol6': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --install /home/sourcelinux/ros_parol/src/build/parol6
+[0.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parol6)
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourcelinux/ros_parol/src/build/parol6' returned '0': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --install /home/sourcelinux/ros_parol/src/build/parol6
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6' for CMake module files
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6' for CMake config files
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('parol6', 'cmake_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/hook/cmake_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/hook/cmake_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/hook/cmake_prefix_path.sh'
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/bin'
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/lib/pkgconfig/parol6.pc'
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/lib/python3.10/site-packages'
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/bin'
+[0.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.sh'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.bash'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.zsh'
+[0.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourcelinux/ros_parol/src/install/parol6/share/colcon-core/packages/parol6)
+[0.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parol6)
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6' for CMake module files
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6' for CMake config files
+[0.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('parol6', 'cmake_prefix_path')
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/hook/cmake_prefix_path.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/hook/cmake_prefix_path.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/hook/cmake_prefix_path.sh'
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/bin'
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/lib/pkgconfig/parol6.pc'
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/lib/python3.10/site-packages'
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6/bin'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.sh'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.bash'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.zsh'
+[0.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourcelinux/ros_parol/src/install/parol6/share/colcon-core/packages/parol6)
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sourcelinux/ros_parol/src/parol6_moveit' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sourcelinux/ros_parol/src/parol6_moveit'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourcelinux/ros_parol/src/build/parol6_moveit': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --build /home/sourcelinux/ros_parol/src/build/parol6_moveit -- -j12 -l12
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourcelinux/ros_parol/src/build/parol6_moveit' returned '0': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --build /home/sourcelinux/ros_parol/src/build/parol6_moveit -- -j12 -l12
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sourcelinux/ros_parol/src/build/parol6_moveit': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --install /home/sourcelinux/ros_parol/src/build/parol6_moveit
+[0.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parol6_moveit)
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sourcelinux/ros_parol/src/build/parol6_moveit' returned '0': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --install /home/sourcelinux/ros_parol/src/build/parol6_moveit
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit' for CMake module files
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit' for CMake config files
+[0.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('parol6_moveit', 'cmake_prefix_path')
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/hook/cmake_prefix_path.ps1'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/hook/cmake_prefix_path.dsv'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/hook/cmake_prefix_path.sh'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/bin'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/lib/pkgconfig/parol6_moveit.pc'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/lib/python3.10/site-packages'
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/bin'
+[0.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.ps1'
+[0.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.sh'
+[0.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.bash'
+[0.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.zsh'
+[0.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/colcon-core/packages/parol6_moveit)
+[0.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parol6_moveit)
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit' for CMake module files
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit' for CMake config files
+[0.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('parol6_moveit', 'cmake_prefix_path')
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/hook/cmake_prefix_path.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/hook/cmake_prefix_path.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/lib/pkgconfig/parol6_moveit.pc'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/lib/python3.10/site-packages'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/sourcelinux/ros_parol/src/install/parol6_moveit/bin'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.sh'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/parol6_moveit/package.zsh'
+[0.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sourcelinux/ros_parol/src/install/parol6_moveit/share/colcon-core/packages/parol6_moveit)
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.424s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.424s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.424s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.428s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.440s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourcelinux/ros_parol/src/install/local_setup.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sourcelinux/ros_parol/src/install/_local_setup_util_ps1.py'
+[0.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourcelinux/ros_parol/src/install/setup.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourcelinux/ros_parol/src/install/local_setup.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sourcelinux/ros_parol/src/install/_local_setup_util_sh.py'
+[0.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourcelinux/ros_parol/src/install/setup.sh'
+[0.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourcelinux/ros_parol/src/install/local_setup.bash'
+[0.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourcelinux/ros_parol/src/install/setup.bash'
+[0.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sourcelinux/ros_parol/src/install/local_setup.zsh'
+[0.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sourcelinux/ros_parol/src/install/setup.zsh'

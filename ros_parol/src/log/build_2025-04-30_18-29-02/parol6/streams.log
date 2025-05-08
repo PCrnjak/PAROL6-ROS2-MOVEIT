@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/sourcelinux/ros_parol/src/build/parol6': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --build /home/sourcelinux/ros_parol/src/build/parol6 -- -j12 -l12
+[0.043s] Invoked command in '/home/sourcelinux/ros_parol/src/build/parol6' returned '0': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --build /home/sourcelinux/ros_parol/src/build/parol6 -- -j12 -l12
+[0.051s] Invoking command in '/home/sourcelinux/ros_parol/src/build/parol6': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --install /home/sourcelinux/ros_parol/src/build/parol6
+[0.056s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf/parol6.csv
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf/PAROL6 (copy).urdf
+[0.056s] -- Installing: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf/parol6.urdf
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/launch
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/launch/gazebo.launch
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/launch/display.launch
+[0.056s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L3.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/base_link.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L2.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L4.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L1.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L6.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L5.STL
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/ament_index/resource_index/package_run_dependencies/parol6
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/ament_index/resource_index/parent_prefix_path/parol6
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/ament_prefix_path.sh
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/ament_prefix_path.dsv
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/path.sh
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/path.dsv
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.bash
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.sh
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.zsh
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.dsv
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.dsv
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/ament_index/resource_index/packages/parol6
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/cmake/parol6Config.cmake
+[0.057s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/cmake/parol6Config-version.cmake
+[0.058s] -- Up-to-date: /home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.xml
+[0.058s] Invoked command in '/home/sourcelinux/ros_parol/src/build/parol6' returned '0': CMAKE_PREFIX_PATH=/home/sourcelinux/ros_parol/src/install/parol6_moveit:/home/sourcelinux/ros_parol/src/install/parol6:/home/sourcelinux/ros2_ws2/install/parol6_moveit:/home/sourcelinux/ros2_ws2/install/moveit_robot_arm_sim:/opt/ros/humble:/home/sourcelinux/ros2_ws2/install/parol6 /usr/bin/cmake --install /home/sourcelinux/ros_parol/src/build/parol6

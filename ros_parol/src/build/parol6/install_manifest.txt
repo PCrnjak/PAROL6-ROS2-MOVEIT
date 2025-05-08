@@ -1,0 +1,27 @@
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf/parol6.csv
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf/PAROL6 (copy).urdf
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/urdf/parol6.urdf
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/launch/gazebo.launch
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/launch/display.launch
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L3.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/base_link.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L2.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L4.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L1.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L6.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/meshes/L5.STL
+/home/sourcelinux/ros_parol/src/install/parol6/share/ament_index/resource_index/package_run_dependencies/parol6
+/home/sourcelinux/ros_parol/src/install/parol6/share/ament_index/resource_index/parent_prefix_path/parol6
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/ament_prefix_path.sh
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/ament_prefix_path.dsv
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/path.sh
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/environment/path.dsv
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.bash
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.sh
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.zsh
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/local_setup.dsv
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.dsv
+/home/sourcelinux/ros_parol/src/install/parol6/share/ament_index/resource_index/packages/parol6
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/cmake/parol6Config.cmake
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/cmake/parol6Config-version.cmake
+/home/sourcelinux/ros_parol/src/install/parol6/share/parol6/package.xml
